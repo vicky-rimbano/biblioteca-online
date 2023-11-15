@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <img src="./imagens/img_logotipo.jpg" alt="text" width=80  height=60 >
+
+<link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha biblioteca</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="css/todolist.css">
+
+</head>
+
+<body>
+
+  <header>
+<h1>Sua biblioteca pessoal </h1>
+<H2>Bem-vindos ao nosso site para entusiatas de livros</H2> 
+
+<!-- o paragrafo abaixo foi feito para mudar as paginas se tiver escrito 'active' vai estar ativa se não estiver ativa vai estar escrito 'no' na class !-->
+<div class="topnav">
+    <a class="active" href="./index.html">Home</a>
+    <a class="no" href="./about.html">About</a>
+    <a class="no"href="./creditos.html">creditos</a>
+  
+  </div>
+
+
+
+<div class="todo-list__app">
+
+  <div class="todo-add-item__container">
+      <h1 class="heading">Lista de Livros</h1>
+      <form action="#" class="todo-add-item" id="todo-add">
+          <input class="inputItem" id="item-input" type="text" name="text" placeholder="New Item">
+          <input id="add-item" type="submit" value="Add">
+      </form>
+  </div>
+
+  <div class="todo-list__container">
+      <ul id="todo-list">
+           
+      </ul>
+  </div>
+
+</div>
+</header>
+
+  <img src="./imagens/images_004.png" width="20" height="20" p> Victória R Rimbano</p>
+    
+  <script src="js/todolist.js"></script>
+</body>
+</html>
